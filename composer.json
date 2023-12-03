@@ -1,0 +1,11 @@
+{
+  "name": "eashigaev/ddd-php-restaurant-practice",
+  "type": "draft",
+  "description": "The practice of applying Domain-Driven Design and architectural practices in the domain of restaurant services.",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Restaurant\\": "./"
+    }
+  }
+}
