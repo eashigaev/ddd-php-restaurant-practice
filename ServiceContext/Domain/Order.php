@@ -29,6 +29,7 @@ class Order
         $self->waiter = $waiter;
         $self->status = OrderStatus::SERVING;
         $self->isClosed = false;
+        $self->positions = [];
         return $self;
     }
 

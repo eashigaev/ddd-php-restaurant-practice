@@ -27,6 +27,7 @@ class Table
         $self->capacity = $capacity;
         $self->isTaken = false;
         $self->session = null;
+        $self->reservations = [];
         return $self;
     }
 
